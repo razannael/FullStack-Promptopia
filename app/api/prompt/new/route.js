@@ -1,4 +1,4 @@
-import { connectToDB } from "../../../../utils/database.js";
+import { connectToDB } from "@utils/database.js";
 
 import Prompt from "@models/prompt.js";
 export const POST = async(req, res) => {
