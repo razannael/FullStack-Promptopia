@@ -4,7 +4,7 @@ const Profile = ({ name, desc, data, handleEdit, handleDelete }) => {
   return (
     <section className='w-full'>
       <h2 className='head_text text-left'>
-        <span className='blue_gradient'>{name} Profile</span>
+        <span className='blue_gradient capitalize'>{name} Profile</span>
       </h2>
       <p className='desc text-left'>{desc}</p>
 
